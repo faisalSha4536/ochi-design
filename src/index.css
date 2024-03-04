@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --text-color: #212121;
+  --background-color: #F1F1F1;
+  --green-background-color: #004D43;
+  --lite-yellow-background-color: #CDEA68;
+  --black-color:#000000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'neue-regular';
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+div{
+  background-color: transparent;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'founder-semibold';
+  src: url('./fonts/FoundersGrotesk-Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'neue-regular';
+  src: url('./fonts/NeueMontreal-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'nuenito';
+  src: url('./fonts/nunito-v12-latin-700.ttf');
+}
+
+h1,h2,h3,h4{
+  font-family: 'founder-semibold';
+  background-color: transparent;
+}
+
+h5{
+  font-family: 'nuenito';
+}
+
+p{
+  font-family: 'neue-regular';
 }
